@@ -281,7 +281,7 @@ class UuidModel extends Model
 	 *
 	 * @return array
 	 */
-	protected function doFindAll(int $limit = 0, int $offset = 0)
+	protected function doFindAll(int $limit = null, int $offset = 0)
 	{
 		$result = parent::doFindAll($limit, $offset);
 		// Convert UUID fields from byte if needed
