@@ -4,6 +4,8 @@ namespace Michalsn\Uuid;
 
 use CodeIgniter\Database\Exceptions\DataException;
 use CodeIgniter\Model;
+use CodeIgniter\Database\ConnectionInterface;
+use CodeIgniter\Validation\ValidationInterface;
 use Michalsn\Uuid\Exceptions\UuidModelException;
 use Michalsn\Uuid\Uuid;
 
